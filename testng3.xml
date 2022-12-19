@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNgFeatures.Testng_Test_case"/>
+      <class name="TestNgFeatures.Keyword2_priority"/>
+      <class name="TestNgFeatures.Keyword6_groups"/>
+      <class name="TestNgFeatures.Keyword7_timeout"/>
+      <class name="TestNgFeatures.Keyword3_enabled"/>
+      <class name="TestNgFeatures.Keyword1"/>
+      <class name="TestNgFeatures.Keyword5_invocationCount"/>
+      <class name="TestNgFeatures.Keyword8_expectedException"/>
+      <class name="TestNgFeatures.Keyword4_dependsOnMethod"/>
+      <class name="TestNgFeatures.Testng_EmailableReport"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
